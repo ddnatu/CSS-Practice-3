@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+<head>
+	<title>Trying SCSS for the first time</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ng-controller="myController">
+		<div class="div1"><h2 class="h2InsideDiv">This is a heading for the second </h2></div>
+		<div class="divRepeat" ng-repeat="name in names">{{$index+1}}:<span>{{name}}</span></div>
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script src="script.js"></script>
+</body>
+</html>
